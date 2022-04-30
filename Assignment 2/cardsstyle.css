@@ -1,0 +1,174 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.container {
+  margin: 4%;
+  padding-left: 2%;
+  padding-top: 0%;
+}
+
+.card {
+  height: 50%;
+  width: 30%;
+  border-radius: 10px;
+  display: inline-block;
+  margin: 1%;
+  background-color: beige;
+}
+.footer {
+  background-color: #172146;
+  padding: 5px 10px 5px 10px;
+  margin: 0% 4% 1% 4%;
+}
+.image img {
+  width: 100%;
+  height: 100%;
+  border-bottom-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.title {
+  font-size: 18px;
+  text-align: left;
+  margin: 0;
+  font-weight: 600;
+}
+.body {
+  padding: 0% 5% 0% 3%;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+  border-bottom-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.section {
+  paddings: 10px 24px;
+}
+.text {
+  padding: 10px 24px;
+}
+.auth {
+  padding-top: 4px;
+}
+.dropbtn {
+  padding-left: 400px;
+}
+.details {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.43;
+  color: rgba(0, 0, 0, 0.6);
+  margin: 4px 0;
+}
+.par {
+  color: cornflowerblue;
+  font-style: italic;
+}
+
+.pal {
+  background-color: #172146;
+  padding: 5px 30%;
+}
+.heading {
+  color: #000;
+  font-weight: 600;
+  margin: 0;
+  padding: 20px;
+  font-size: 32px;
+}
+.filtertext {
+  padding-top: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: 28px;
+  padding-left: 8px;
+}
+.content {
+  padding-left: 20px;
+  margin-bottom: px;
+  font-size: 16px;
+  padding-top: 2px;
+}
+li {
+  padding: 2px 5px;
+  width: auto;
+  color: #0084ff;
+  border-radius: 25px;
+  border: 1px solid #0084ff;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.column {
+  float: left;
+  padding: 3px;
+  font-style: italic;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.header {
+  width: 100%;
+  padding: 16px 78px;
+  background-color: antiquewhite;
+  position: fixed;
+}
+.p1 {
+  width: 130px;
+  font-size: 32px;
+  color: blue;
+}
+.p2 {
+  margin: 0;
+  font-weight: 500;
+  font-family: "Raleway Dots";
+  font-style: italic;
+}
+.r1 {
+  float: left;
+  width: 50%;
+}
+
+.r:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding-left: 2px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
